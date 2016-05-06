@@ -14,7 +14,7 @@ android {
     }
     sourceSets {
         main {
-            java.srcDirs = ['src/main/java']
+            java.srcDirs = ['src/main/java', 'src/test/java/']
         }
     }
     compileOptions {
