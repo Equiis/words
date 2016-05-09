@@ -69,7 +69,9 @@ dependencies {
     compile appDependencies.butterknife
     compile appDependencies.rxandroid
     // Required -- JUnit 4 framework
-    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.+'
+    testCompile 'junit:junit:4.+'
     // Optional -- Mockito framework
+    compile 'org.mockito:mockito-core:1.+'
     testCompile 'org.mockito:mockito-core:1.+'
 }

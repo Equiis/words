@@ -35,5 +35,4 @@ dependencies {
     compile dataDependencies.dagger
     apt  dataDependencies.daggerCompiler
     compile dataDependencies.javaxAnnotation
-    testCompile 'junit:junit:4.12'
 }
